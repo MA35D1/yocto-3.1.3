@@ -18,7 +18,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
 SRCBRANCH = "linux-5.4.y"
 LOCALVERSION = "-${SRCBRANCH}"
 
-KERNEL_SRC ?= "git://github.com/OpenNuvoton/MA35D1_linux-5.4.y.git;protocol=https"
+KERNEL_SRC ?= "git://github.com/MA35D1/linux-5.4.y.git;branch=develop;protocol=https"
 SRC_URI = "${KERNEL_SRC}"
 
 SRC_URI += " \
